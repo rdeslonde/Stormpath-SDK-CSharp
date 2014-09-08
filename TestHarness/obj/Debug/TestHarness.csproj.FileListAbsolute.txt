@@ -1,0 +1,15 @@
+C:\Users\Richard B DesLonde\Documents\Visual Studio 2013\Projects\StormPathUserManagement\TestHarness\obj\Debug\TestHarness.csprojResolveAssemblyReference.cache
+C:\Users\Richard B DesLonde\Documents\Visual Studio 2013\Projects\StormPathUserManagement\TestHarness\obj\Debug\TestHarness.Form1.resources
+C:\Users\Richard B DesLonde\Documents\Visual Studio 2013\Projects\StormPathUserManagement\TestHarness\obj\Debug\TestHarness.Properties.Resources.resources
+C:\Users\Richard B DesLonde\Documents\Visual Studio 2013\Projects\StormPathUserManagement\TestHarness\obj\Debug\TestHarness.csproj.GenerateResource.Cache
+C:\Users\Richard B DesLonde\Documents\Visual Studio 2013\Projects\StormPathUserManagement\TestHarness\bin\Debug\TestHarness.exe.config
+C:\Users\Richard B DesLonde\Documents\Visual Studio 2013\Projects\StormPathUserManagement\TestHarness\bin\Debug\TestHarness.exe
+C:\Users\Richard B DesLonde\Documents\Visual Studio 2013\Projects\StormPathUserManagement\TestHarness\bin\Debug\TestHarness.pdb
+C:\Users\Richard B DesLonde\Documents\Visual Studio 2013\Projects\StormPathUserManagement\TestHarness\bin\Debug\StormPathUserManagement.dll
+C:\Users\Richard B DesLonde\Documents\Visual Studio 2013\Projects\StormPathUserManagement\TestHarness\bin\Debug\RestSharp.dll
+C:\Users\Richard B DesLonde\Documents\Visual Studio 2013\Projects\StormPathUserManagement\TestHarness\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Richard B DesLonde\Documents\Visual Studio 2013\Projects\StormPathUserManagement\TestHarness\bin\Debug\StormPathUserManagement.pdb
+C:\Users\Richard B DesLonde\Documents\Visual Studio 2013\Projects\StormPathUserManagement\TestHarness\bin\Debug\RestSharp.xml
+C:\Users\Richard B DesLonde\Documents\Visual Studio 2013\Projects\StormPathUserManagement\TestHarness\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Richard B DesLonde\Documents\Visual Studio 2013\Projects\StormPathUserManagement\TestHarness\obj\Debug\TestHarness.exe
+C:\Users\Richard B DesLonde\Documents\Visual Studio 2013\Projects\StormPathUserManagement\TestHarness\obj\Debug\TestHarness.pdb
