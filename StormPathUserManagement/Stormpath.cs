@@ -13,15 +13,15 @@ namespace StormPathUserManagement
         public enum ExpansionLinkTypes
         {
             account, groups, groupmemberships, directory, tenant, customData
-        }
+        }   
 
         private StormathClient _client;
         private StormpathApplication _application;
         private string _accountshref;
 
-        public Stormpath(string apiKeyId, string apiKeySecret, string applicationHref, string accountshref)
+        public Stormpath(string apiKeyId, string apiKeySecret, string applicationHref, string accountshref, AuthenticationType authenticationType)
         {
-            _client = new StormathClient(apiKeyId, apiKeySecret);
+            _client = new StormathClient(apiKeyId, apiKeySecret, authenticationType);
             _application = new StormpathApplication()
             {
                 href = applicationHref

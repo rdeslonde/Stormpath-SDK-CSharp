@@ -46,6 +46,8 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="DigestAuthenticator.cs" />
+    <Compile Include="DigestAuthFixer.cs" />
     <Compile Include="RestSharpJsonNetSerializer.cs" />
     <Compile Include="GroupMemberships.cs" />
     <Compile Include="IStormpath.cs" />

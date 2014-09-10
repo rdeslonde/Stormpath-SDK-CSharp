@@ -47,7 +47,7 @@ namespace TestHarness
             txtAPIKeyID.Text = apiKeyID;
             txtAPIKeySecret.Text = apiKeySecret;
 
-            stormPath = new Stormpath(apiKeyID, apiKeySecret, applicationhref, accounthref);
+            stormPath = new Stormpath(apiKeyID, apiKeySecret, applicationhref, accounthref, AuthenticationType.digest);
 
             txtEmail.Text = info[3];
             txtPassword.Text = info[4];
