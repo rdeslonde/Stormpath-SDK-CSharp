@@ -12,21 +12,34 @@ EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
+		Debug|ForMono = Debug|ForMono
 		Release|Any CPU = Release|Any CPU
+		Release|ForMono = Release|ForMono
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{8CD34055-EF02-4667-9AFF-133A0BBE4979}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{8CD34055-EF02-4667-9AFF-133A0BBE4979}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CD34055-EF02-4667-9AFF-133A0BBE4979}.Debug|ForMono.ActiveCfg = Debug|Any CPU
+		{8CD34055-EF02-4667-9AFF-133A0BBE4979}.Debug|ForMono.Build.0 = Debug|Any CPU
 		{8CD34055-EF02-4667-9AFF-133A0BBE4979}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8CD34055-EF02-4667-9AFF-133A0BBE4979}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8CD34055-EF02-4667-9AFF-133A0BBE4979}.Release|ForMono.ActiveCfg = Release|x64
+		{8CD34055-EF02-4667-9AFF-133A0BBE4979}.Release|ForMono.Build.0 = Release|x64
 		{750BD678-4289-46E4-987F-40995A4206AD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{750BD678-4289-46E4-987F-40995A4206AD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{750BD678-4289-46E4-987F-40995A4206AD}.Debug|ForMono.ActiveCfg = Debug|Any CPU
 		{750BD678-4289-46E4-987F-40995A4206AD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{750BD678-4289-46E4-987F-40995A4206AD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{750BD678-4289-46E4-987F-40995A4206AD}.Release|ForMono.ActiveCfg = Release|x64
+		{750BD678-4289-46E4-987F-40995A4206AD}.Release|ForMono.Build.0 = Release|x64
 		{99655BE8-4E4B-47E8-A049-B616E4175E28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{99655BE8-4E4B-47E8-A049-B616E4175E28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{99655BE8-4E4B-47E8-A049-B616E4175E28}.Debug|ForMono.ActiveCfg = Debug|Any CPU
+		{99655BE8-4E4B-47E8-A049-B616E4175E28}.Debug|ForMono.Build.0 = Debug|Any CPU
 		{99655BE8-4E4B-47E8-A049-B616E4175E28}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{99655BE8-4E4B-47E8-A049-B616E4175E28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{99655BE8-4E4B-47E8-A049-B616E4175E28}.Release|ForMono.ActiveCfg = Release|x64
+		{99655BE8-4E4B-47E8-A049-B616E4175E28}.Release|ForMono.Build.0 = Release|x64
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

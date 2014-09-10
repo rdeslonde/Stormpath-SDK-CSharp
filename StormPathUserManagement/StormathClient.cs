@@ -43,10 +43,17 @@ namespace StormPathUserManagement
         {
             //request.JsonSerializer = new RestSharpJsonNetSerializer();
 
+            IAuthenticator authenticator = new HttpBasicAuthenticator(_apiKeyId, _apiKeySecret);
+
+            if (_authenticationType == AuthenticationType.digest)
+            {
+                authenticator = new DigestAuthenticator(_apiKeyId, _apiKeySecret);
+            }
+
             var client = new RestClient
             {
                 BaseUrl = href,
-                Authenticator = new DigestAuthenticator(_apiKeyId, _apiKeySecret)//new HttpBasicAuthenticator(_apiKeyId, _apiKeySecret)
+                Authenticator = authenticator
             };
 
             var response = client.Execute<T>(request);

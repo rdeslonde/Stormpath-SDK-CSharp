@@ -52,20 +52,6 @@
             this.txtAPIKeyID = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
-            this.label7 = new System.Windows.Forms.Label();
-            this.btnAuthenticateAccount = new System.Windows.Forms.Button();
-            this.label6 = new System.Windows.Forms.Label();
-            this.txtGivenName = new System.Windows.Forms.TextBox();
-            this.label5 = new System.Windows.Forms.Label();
-            this.txtFullName = new System.Windows.Forms.TextBox();
-            this.label4 = new System.Windows.Forms.Label();
-            this.txtPassword = new System.Windows.Forms.TextBox();
-            this.label3 = new System.Windows.Forms.Label();
-            this.btnCreateAccount = new System.Windows.Forms.Button();
-            this.txtEmail = new System.Windows.Forms.TextBox();
-            this.txtAccountResult = new System.Windows.Forms.TextBox();
-            this.groupBox1 = new System.Windows.Forms.GroupBox();
-            this.groupBox4 = new System.Windows.Forms.GroupBox();
             this.groupBox5 = new System.Windows.Forms.GroupBox();
             this.label11 = new System.Windows.Forms.Label();
             this.txtAccountEmailResponse = new System.Windows.Forms.TextBox();
@@ -81,11 +67,29 @@
             this.label16 = new System.Windows.Forms.Label();
             this.txtAccountGUIDResponse = new System.Windows.Forms.TextBox();
             this.label17 = new System.Windows.Forms.Label();
+            this.groupBox4 = new System.Windows.Forms.GroupBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtEmail = new System.Windows.Forms.TextBox();
+            this.txtPassword = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.txtFullName = new System.Windows.Forms.TextBox();
+            this.label5 = new System.Windows.Forms.Label();
+            this.txtGivenName = new System.Windows.Forms.TextBox();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.btnAuthenticateAccount = new System.Windows.Forms.Button();
+            this.btnCreateAccount = new System.Windows.Forms.Button();
+            this.txtAccountResult = new System.Windows.Forms.TextBox();
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.groupBox6 = new System.Windows.Forms.GroupBox();
+            this.cboConfigurationAuthentication = new System.Windows.Forms.ComboBox();
+            this.label18 = new System.Windows.Forms.Label();
             this.groupBox3.SuspendLayout();
             this.groupBox2.SuspendLayout();
-            this.groupBox1.SuspendLayout();
-            this.groupBox4.SuspendLayout();
             this.groupBox5.SuspendLayout();
+            this.groupBox4.SuspendLayout();
+            this.groupBox1.SuspendLayout();
+            this.groupBox6.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnAccountCreatePassengerAndSmugglerCustomData
@@ -324,144 +328,6 @@
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Account";
             // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Location = new System.Drawing.Point(16, 289);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(37, 13);
-            this.label7.TabIndex = 13;
-            this.label7.Text = "Result";
-            // 
-            // btnAuthenticateAccount
-            // 
-            this.btnAuthenticateAccount.Location = new System.Drawing.Point(1013, 373);
-            this.btnAuthenticateAccount.Name = "btnAuthenticateAccount";
-            this.btnAuthenticateAccount.Size = new System.Drawing.Size(75, 23);
-            this.btnAuthenticateAccount.TabIndex = 11;
-            this.btnAuthenticateAccount.Text = "Authenticate Account";
-            this.btnAuthenticateAccount.UseVisualStyleBackColor = true;
-            this.btnAuthenticateAccount.Click += new System.EventHandler(this.btnAuthenticateAccount_Click);
-            // 
-            // label6
-            // 
-            this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(20, 100);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(66, 13);
-            this.label6.TabIndex = 10;
-            this.label6.Text = "Given Name";
-            // 
-            // txtGivenName
-            // 
-            this.txtGivenName.Location = new System.Drawing.Point(100, 97);
-            this.txtGivenName.Name = "txtGivenName";
-            this.txtGivenName.Size = new System.Drawing.Size(425, 20);
-            this.txtGivenName.TabIndex = 6;
-            // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(20, 74);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(54, 13);
-            this.label5.TabIndex = 8;
-            this.label5.Text = "Full Name";
-            // 
-            // txtFullName
-            // 
-            this.txtFullName.Location = new System.Drawing.Point(100, 71);
-            this.txtFullName.Name = "txtFullName";
-            this.txtFullName.Size = new System.Drawing.Size(425, 20);
-            this.txtFullName.TabIndex = 5;
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(20, 48);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(53, 13);
-            this.label4.TabIndex = 6;
-            this.label4.Text = "Password";
-            // 
-            // txtPassword
-            // 
-            this.txtPassword.Location = new System.Drawing.Point(100, 45);
-            this.txtPassword.Name = "txtPassword";
-            this.txtPassword.Size = new System.Drawing.Size(425, 20);
-            this.txtPassword.TabIndex = 4;
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(20, 22);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(32, 13);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Email";
-            // 
-            // btnCreateAccount
-            // 
-            this.btnCreateAccount.Location = new System.Drawing.Point(9, 373);
-            this.btnCreateAccount.Name = "btnCreateAccount";
-            this.btnCreateAccount.Size = new System.Drawing.Size(61, 23);
-            this.btnCreateAccount.TabIndex = 10;
-            this.btnCreateAccount.Text = "Create";
-            this.btnCreateAccount.UseVisualStyleBackColor = true;
-            this.btnCreateAccount.Click += new System.EventHandler(this.btnCreateAccount_Click);
-            // 
-            // txtEmail
-            // 
-            this.txtEmail.Location = new System.Drawing.Point(100, 19);
-            this.txtEmail.Name = "txtEmail";
-            this.txtEmail.Size = new System.Drawing.Size(425, 20);
-            this.txtEmail.TabIndex = 3;
-            // 
-            // txtAccountResult
-            // 
-            this.txtAccountResult.Location = new System.Drawing.Point(59, 286);
-            this.txtAccountResult.Multiline = true;
-            this.txtAccountResult.Name = "txtAccountResult";
-            this.txtAccountResult.ScrollBars = System.Windows.Forms.ScrollBars.Both;
-            this.txtAccountResult.Size = new System.Drawing.Size(1029, 81);
-            this.txtAccountResult.TabIndex = 9;
-            // 
-            // groupBox1
-            // 
-            this.groupBox1.Controls.Add(this.label1);
-            this.groupBox1.Controls.Add(this.txtAPIKeySecret);
-            this.groupBox1.Controls.Add(this.txtAPIKeyID);
-            this.groupBox1.Controls.Add(this.label2);
-            this.groupBox1.Location = new System.Drawing.Point(12, 24);
-            this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(532, 100);
-            this.groupBox1.TabIndex = 7;
-            this.groupBox1.TabStop = false;
-            this.groupBox1.Text = "API Key";
-            // 
-            // groupBox4
-            // 
-            this.groupBox4.Controls.Add(this.label3);
-            this.groupBox4.Controls.Add(this.txtEmail);
-            this.groupBox4.Controls.Add(this.txtPassword);
-            this.groupBox4.Controls.Add(this.label4);
-            this.groupBox4.Controls.Add(this.txtFullName);
-            this.groupBox4.Controls.Add(this.label5);
-            this.groupBox4.Controls.Add(this.txtGivenName);
-            this.groupBox4.Controls.Add(this.label6);
-            this.groupBox4.Controls.Add(this.txtSurname);
-            this.groupBox4.Controls.Add(this.label8);
-            this.groupBox4.Controls.Add(this.txtStatus);
-            this.groupBox4.Controls.Add(this.label9);
-            this.groupBox4.Controls.Add(this.txtAccountGUID);
-            this.groupBox4.Controls.Add(this.label10);
-            this.groupBox4.Location = new System.Drawing.Point(19, 28);
-            this.groupBox4.Name = "groupBox4";
-            this.groupBox4.Size = new System.Drawing.Size(536, 252);
-            this.groupBox4.TabIndex = 10;
-            this.groupBox4.TabStop = false;
-            this.groupBox4.Text = "Post Data";
-            // 
             // groupBox5
             // 
             this.groupBox5.Controls.Add(this.label11);
@@ -597,11 +463,183 @@
             this.label17.TabIndex = 20;
             this.label17.Text = "GUID";
             // 
+            // groupBox4
+            // 
+            this.groupBox4.Controls.Add(this.label3);
+            this.groupBox4.Controls.Add(this.txtEmail);
+            this.groupBox4.Controls.Add(this.txtPassword);
+            this.groupBox4.Controls.Add(this.label4);
+            this.groupBox4.Controls.Add(this.txtFullName);
+            this.groupBox4.Controls.Add(this.label5);
+            this.groupBox4.Controls.Add(this.txtGivenName);
+            this.groupBox4.Controls.Add(this.label6);
+            this.groupBox4.Controls.Add(this.txtSurname);
+            this.groupBox4.Controls.Add(this.label8);
+            this.groupBox4.Controls.Add(this.txtStatus);
+            this.groupBox4.Controls.Add(this.label9);
+            this.groupBox4.Controls.Add(this.txtAccountGUID);
+            this.groupBox4.Controls.Add(this.label10);
+            this.groupBox4.Location = new System.Drawing.Point(19, 28);
+            this.groupBox4.Name = "groupBox4";
+            this.groupBox4.Size = new System.Drawing.Size(536, 252);
+            this.groupBox4.TabIndex = 10;
+            this.groupBox4.TabStop = false;
+            this.groupBox4.Text = "Post Data";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(20, 22);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(32, 13);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "Email";
+            // 
+            // txtEmail
+            // 
+            this.txtEmail.Location = new System.Drawing.Point(100, 19);
+            this.txtEmail.Name = "txtEmail";
+            this.txtEmail.Size = new System.Drawing.Size(425, 20);
+            this.txtEmail.TabIndex = 3;
+            // 
+            // txtPassword
+            // 
+            this.txtPassword.Location = new System.Drawing.Point(100, 45);
+            this.txtPassword.Name = "txtPassword";
+            this.txtPassword.Size = new System.Drawing.Size(425, 20);
+            this.txtPassword.TabIndex = 4;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(20, 48);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(53, 13);
+            this.label4.TabIndex = 6;
+            this.label4.Text = "Password";
+            // 
+            // txtFullName
+            // 
+            this.txtFullName.Location = new System.Drawing.Point(100, 71);
+            this.txtFullName.Name = "txtFullName";
+            this.txtFullName.Size = new System.Drawing.Size(425, 20);
+            this.txtFullName.TabIndex = 5;
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(20, 74);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(54, 13);
+            this.label5.TabIndex = 8;
+            this.label5.Text = "Full Name";
+            // 
+            // txtGivenName
+            // 
+            this.txtGivenName.Location = new System.Drawing.Point(100, 97);
+            this.txtGivenName.Name = "txtGivenName";
+            this.txtGivenName.Size = new System.Drawing.Size(425, 20);
+            this.txtGivenName.TabIndex = 6;
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(20, 100);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(66, 13);
+            this.label6.TabIndex = 10;
+            this.label6.Text = "Given Name";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(16, 289);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(37, 13);
+            this.label7.TabIndex = 13;
+            this.label7.Text = "Result";
+            // 
+            // btnAuthenticateAccount
+            // 
+            this.btnAuthenticateAccount.Location = new System.Drawing.Point(1013, 373);
+            this.btnAuthenticateAccount.Name = "btnAuthenticateAccount";
+            this.btnAuthenticateAccount.Size = new System.Drawing.Size(75, 23);
+            this.btnAuthenticateAccount.TabIndex = 11;
+            this.btnAuthenticateAccount.Text = "Authenticate Account";
+            this.btnAuthenticateAccount.UseVisualStyleBackColor = true;
+            this.btnAuthenticateAccount.Click += new System.EventHandler(this.btnAuthenticateAccount_Click);
+            // 
+            // btnCreateAccount
+            // 
+            this.btnCreateAccount.Location = new System.Drawing.Point(9, 373);
+            this.btnCreateAccount.Name = "btnCreateAccount";
+            this.btnCreateAccount.Size = new System.Drawing.Size(61, 23);
+            this.btnCreateAccount.TabIndex = 10;
+            this.btnCreateAccount.Text = "Create";
+            this.btnCreateAccount.UseVisualStyleBackColor = true;
+            this.btnCreateAccount.Click += new System.EventHandler(this.btnCreateAccount_Click);
+            // 
+            // txtAccountResult
+            // 
+            this.txtAccountResult.Location = new System.Drawing.Point(59, 286);
+            this.txtAccountResult.Multiline = true;
+            this.txtAccountResult.Name = "txtAccountResult";
+            this.txtAccountResult.ScrollBars = System.Windows.Forms.ScrollBars.Both;
+            this.txtAccountResult.Size = new System.Drawing.Size(1029, 81);
+            this.txtAccountResult.TabIndex = 9;
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.label1);
+            this.groupBox1.Controls.Add(this.txtAPIKeySecret);
+            this.groupBox1.Controls.Add(this.txtAPIKeyID);
+            this.groupBox1.Controls.Add(this.label2);
+            this.groupBox1.Location = new System.Drawing.Point(12, 24);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Size = new System.Drawing.Size(532, 100);
+            this.groupBox1.TabIndex = 7;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "API Key";
+            // 
+            // groupBox6
+            // 
+            this.groupBox6.Controls.Add(this.label18);
+            this.groupBox6.Controls.Add(this.cboConfigurationAuthentication);
+            this.groupBox6.Location = new System.Drawing.Point(562, 24);
+            this.groupBox6.Name = "groupBox6";
+            this.groupBox6.Size = new System.Drawing.Size(556, 100);
+            this.groupBox6.TabIndex = 9;
+            this.groupBox6.TabStop = false;
+            this.groupBox6.Text = "Configuration";
+            // 
+            // cboConfigurationAuthentication
+            // 
+            this.cboConfigurationAuthentication.DropDownStyle = System.Windows.Forms.ComboBoxStyle.DropDownList;
+            this.cboConfigurationAuthentication.FormattingEnabled = true;
+            this.cboConfigurationAuthentication.Items.AddRange(new object[] {
+            "Basic",
+            "Digest"});
+            this.cboConfigurationAuthentication.Location = new System.Drawing.Point(98, 22);
+            this.cboConfigurationAuthentication.Name = "cboConfigurationAuthentication";
+            this.cboConfigurationAuthentication.Size = new System.Drawing.Size(156, 21);
+            this.cboConfigurationAuthentication.TabIndex = 0;
+            this.cboConfigurationAuthentication.SelectedIndexChanged += new System.EventHandler(this.cboConfigurationAuthentication_SelectedIndexChanged);
+            // 
+            // label18
+            // 
+            this.label18.AutoSize = true;
+            this.label18.Location = new System.Drawing.Point(17, 26);
+            this.label18.Name = "label18";
+            this.label18.Size = new System.Drawing.Size(75, 13);
+            this.label18.TabIndex = 3;
+            this.label18.Text = "Authentication";
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1298, 619);
+            this.Controls.Add(this.groupBox6);
             this.Controls.Add(this.groupBox3);
             this.Controls.Add(this.groupBox2);
             this.Controls.Add(this.groupBox1);
@@ -612,12 +650,14 @@
             this.groupBox3.PerformLayout();
             this.groupBox2.ResumeLayout(false);
             this.groupBox2.PerformLayout();
-            this.groupBox1.ResumeLayout(false);
-            this.groupBox1.PerformLayout();
-            this.groupBox4.ResumeLayout(false);
-            this.groupBox4.PerformLayout();
             this.groupBox5.ResumeLayout(false);
             this.groupBox5.PerformLayout();
+            this.groupBox4.ResumeLayout(false);
+            this.groupBox4.PerformLayout();
+            this.groupBox1.ResumeLayout(false);
+            this.groupBox1.PerformLayout();
+            this.groupBox6.ResumeLayout(false);
+            this.groupBox6.PerformLayout();
             this.ResumeLayout(false);
 
         }
@@ -677,6 +717,9 @@
         private System.Windows.Forms.TextBox txtAccountGUIDResponse;
         private System.Windows.Forms.Label label17;
         private System.Windows.Forms.GroupBox groupBox4;
+        private System.Windows.Forms.GroupBox groupBox6;
+        private System.Windows.Forms.Label label18;
+        private System.Windows.Forms.ComboBox cboConfigurationAuthentication;
     }
 }
 

@@ -47,7 +47,7 @@ namespace TestHarness
             txtAPIKeyID.Text = apiKeyID;
             txtAPIKeySecret.Text = apiKeySecret;
 
-            stormPath = new Stormpath(apiKeyID, apiKeySecret, applicationhref, accounthref, AuthenticationType.digest);
+            cboConfigurationAuthentication.SelectedItem = "Digest";
 
             txtEmail.Text = info[3];
             txtPassword.Text = info[4];
@@ -418,6 +418,18 @@ namespace TestHarness
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void cboConfigurationAuthentication_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            var authenticationType = AuthenticationType.basic;
+
+            if (cboConfigurationAuthentication.SelectedItem.ToString() == "Digest")
+            {
+                authenticationType = AuthenticationType.digest;
+            }
+
+            stormPath = new Stormpath(apiKeyID, apiKeySecret, applicationhref, accounthref, authenticationType);
         }
     }
 }
