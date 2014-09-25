@@ -1,0 +1,11 @@
+C:\Users\Richard B DesLonde\Documents\Visual Studio 2013\Projects\StormPathUserManagement\StormPathUnitTests\bin\Release\StormPathUnitTests.dll
+C:\Users\Richard B DesLonde\Documents\Visual Studio 2013\Projects\StormPathUserManagement\StormPathUnitTests\bin\Release\StormPathUnitTests.pdb
+C:\Users\Richard B DesLonde\Documents\Visual Studio 2013\Projects\StormPathUserManagement\StormPathUnitTests\bin\Release\StormPathUserManagement.dll
+C:\Users\Richard B DesLonde\Documents\Visual Studio 2013\Projects\StormPathUserManagement\StormPathUnitTests\bin\Release\RestSharp.dll
+C:\Users\Richard B DesLonde\Documents\Visual Studio 2013\Projects\StormPathUserManagement\StormPathUnitTests\bin\Release\Newtonsoft.Json.dll
+C:\Users\Richard B DesLonde\Documents\Visual Studio 2013\Projects\StormPathUserManagement\StormPathUnitTests\bin\Release\StormPathUserManagement.pdb
+C:\Users\Richard B DesLonde\Documents\Visual Studio 2013\Projects\StormPathUserManagement\StormPathUnitTests\bin\Release\RestSharp.xml
+C:\Users\Richard B DesLonde\Documents\Visual Studio 2013\Projects\StormPathUserManagement\StormPathUnitTests\bin\Release\Newtonsoft.Json.xml
+C:\Users\Richard B DesLonde\Documents\Visual Studio 2013\Projects\StormPathUserManagement\StormPathUnitTests\obj\Release\StormPathUnitTests.csprojResolveAssemblyReference.cache
+C:\Users\Richard B DesLonde\Documents\Visual Studio 2013\Projects\StormPathUserManagement\StormPathUnitTests\obj\Release\StormPathUnitTests.dll
+C:\Users\Richard B DesLonde\Documents\Visual Studio 2013\Projects\StormPathUserManagement\StormPathUnitTests\obj\Release\StormPathUnitTests.pdb

@@ -1,0 +1,9 @@
+C:\Users\Richard B DesLonde\Documents\Visual Studio 2013\Projects\StormPathUserManagement\StormPathUserManagement\bin\Release\StormPathUserManagement.dll
+C:\Users\Richard B DesLonde\Documents\Visual Studio 2013\Projects\StormPathUserManagement\StormPathUserManagement\bin\Release\StormPathUserManagement.pdb
+C:\Users\Richard B DesLonde\Documents\Visual Studio 2013\Projects\StormPathUserManagement\StormPathUserManagement\bin\Release\Newtonsoft.Json.dll
+C:\Users\Richard B DesLonde\Documents\Visual Studio 2013\Projects\StormPathUserManagement\StormPathUserManagement\bin\Release\RestSharp.dll
+C:\Users\Richard B DesLonde\Documents\Visual Studio 2013\Projects\StormPathUserManagement\StormPathUserManagement\bin\Release\Newtonsoft.Json.xml
+C:\Users\Richard B DesLonde\Documents\Visual Studio 2013\Projects\StormPathUserManagement\StormPathUserManagement\bin\Release\RestSharp.xml
+C:\Users\Richard B DesLonde\Documents\Visual Studio 2013\Projects\StormPathUserManagement\StormPathUserManagement\obj\Release\StormPathUserManagement.csprojResolveAssemblyReference.cache
+C:\Users\Richard B DesLonde\Documents\Visual Studio 2013\Projects\StormPathUserManagement\StormPathUserManagement\obj\Release\StormPathUserManagement.dll
+C:\Users\Richard B DesLonde\Documents\Visual Studio 2013\Projects\StormPathUserManagement\StormPathUserManagement\obj\Release\StormPathUserManagement.pdb
